@@ -1,0 +1,25 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+        	Alalalalal
+	  </p>
+        <a
+          className="App-link"
+          href="https://docker.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          She uchish li she bachkash li
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
