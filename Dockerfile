@@ -7,4 +7,4 @@ RUN npm run build
 
 FROM nginx
 EXPOSE 80
-COPY /app/build /usr/share/nginx/html 
+COPY --from=node:16-alpine /app/build /usr/share/nginx/html 
